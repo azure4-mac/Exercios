@@ -163,3 +163,50 @@ function displayPayment(totalPayment) {
 }
 
 /* quinze */
+
+let sexo = prompt("digite seu sexo: M ou F");
+sexo = sexo.toUpperCase();
+if (sexo == 'M' || sexo == 'F') {
+   let altura_H = Number(prompt("Digite sua altura: "));
+   const pesoIdealH = Math. pow((72.7 * altura_H) - 58);}
+else { let altura_F = Number(prompt("Digite sua altura: "))
+    const pesoIdealF = Math.pow ((62.1 * h) -44.7)}
+document.write  ("Seu peso ideal é de:" +pesoIdealH+ "/" +pesoIdealF )
+
+/* dezesseis */
+
+/* dezessete */
+function calcularMediaAritmetica(nota1, nota2, nota3) {
+  return (nota1 + nota2 + nota3) / 3;
+}
+function calcularMediaPonderada(nota1, nota2, nota3) {
+  const pesos = [3, 3, 4];
+  let somaPonderada = 0;
+
+  for (let i = 0; i < notas.length; i++) {
+    somaPonderada += notas[i] * pesos[i];
+  }
+  return somaPonderada / pesos.reduce((a, b) => a + b, 0);
+}
+function lerNotasEOpcao() {
+  const nota1 = parseFloat(prompt("Digite a primeira nota: "));
+  const nota2 = parseFloat(prompt("Digite a segunda nota: "));
+  const nota3 = parseFloat(prompt("Digite a terceira nota: "));
+  const opcao = prompt("Escolha o tipo de média:\n1 - Aritmética\n2 - Ponderada").toLowerCase();
+
+  return { nota1, nota2, nota3, opcao };
+}
+function main() {
+  const { nota1, nota2, nota3, opcao } = lerNotasEOpcao();
+  if (opcao === '1') {
+    const mediaAritmetica = calcularMediaAritmetica(nota1, nota2, nota3);
+    console.log("A média aritmética é: " + mediaAritmetica);
+  } else if (opcao === '2') {
+    const mediaPonderada = calcularMediaPonderada(nota1, nota2, nota3);}}
+/* dezoito */
+
+/* dezenove */
+
+/* vinte */
+
+/* vinte e um */

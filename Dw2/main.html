@@ -7,37 +7,19 @@
 </head>
 <body>
     <script>
-const barMenu = [
-    { name: "Cachorro quente", code: 100, price: 1.2 },
-    { name: "Bauru simples", code: 101, price: 1.3 },
-    { name: "Bauru com ovo", code: 102, price: 1.5 },
-    { name: "Hambúrger", code: 103, price: 1.2 },
-    { name: "Cheeseburguer", code: 104, price: 1.3 },
-    { name: "Refrigerante", code: 105, price: 1.0 }
-  ];
+let sexo = prompt("Digite seu sexo: M ou F").toUpperCase();
+let altura;
+let pesoIdeal;
 
-  function readOrder() {
-  const itemCode = parseInt(prompt("Digite o código do item pedido:"));
-  const quantity = parseInt(prompt("Digite a quantidade:"));
-
-  return { itemCode, quantity };
-}
-function calculatePayment(order) {
-  const item = barMenu.find(item => item.code === order.itemCode);
-
-  if (!item) {
-    alert("Item não encontrado.");
-    return;
-  }
-
-  const totalPayment = item.price * order.quantity;
-
-  return totalPayment;
+if (sexo == 'M' || sexo == 'F') {
+  altura = Number(prompt("Digite sua altura: "));
+  pesoIdeal = Math.pow((72.7 * altura) - 58);
+} else {
+  altura = Number(prompt("Digite sua altura: "));
+  pesoIdeal = Math.pow((62.1 * altura) - 44.7);
 }
 
-function displayPayment(totalPayment) {
-  alert(`Valor a ser pago: R$${totalPayment.toFixed(2)}`);
-}
+document.writeln("Seu peso ideal é de: " + pesoIdeal);
     </script>
 </body>
 </html>
