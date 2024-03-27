@@ -11,6 +11,24 @@ let resultado = Math.sqrt(resultadoX * resultadoY)
 
 document.write(resultado)
 
+/* dois */
+
+const a = Number(prompt("Digite o primeiro valor:"));
+const b = Number(prompt("Digite o segundo valor:"));
+const c = Number(prompt("Digite o terceiro valor:"));
+
+
+if (a > 0 && b > 0 && c > 0) {
+
+  const r = (a + b) * 2;
+  const s = (b + c) * 2;
+
+  const d = (r + s) / 2;
+
+  alert(`O valor de D é : ${d}`);
+} else {
+  console.log('Todas as entradas devem ser números inteiros positivos');
+}
 
 /* tres */
 
@@ -67,6 +85,8 @@ const custoConsumidor = custoFarbica + custoDistribuidora + custoImposto;
 document.writeln (`Custo para o consumidor R$${custoConsumidor}`);
 
 /* oito */ 
+
+
 
 /* nove */
 
@@ -175,6 +195,8 @@ document.write  ("Seu peso ideal é de:" +pesoIdealH+ "/" +pesoIdealF )
 
 /* dezesseis */
 
+
+
 /* dezessete */
 function calcularMediaAritmetica(nota1, nota2, nota3) {
   return (nota1 + nota2 + nota3) / 3;
@@ -205,8 +227,26 @@ function main() {
     const mediaPonderada = calcularMediaPonderada(nota1, nota2, nota3);}}
 /* dezoito */
 
+
+
 /* dezenove */
+
+
 
 /* vinte */
 
+
+
 /* vinte e um */
+
+
+
+/* vinte e dois */
+
+
+
+/* vinte e tres */
+
+
+
+/* vinte e quatro */
