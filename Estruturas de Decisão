@@ -1,1 +1,22 @@
+/* 1 */
+let x1 = Number(prompt("digite um numero"));
+let y2 = Number(prompt("digite um numero"));
+
+if (x1 > y2) {
+    document.writeln (x1 + "é maior que" + y1)
+}
+else{ 
+    document.write ("O número " + y1 + " é maior que " + x1);
+}
+
+/* 2 */
+let x2 = Number(prompt("digite um numero"));
+
+if (x2 > 0) {
+    document.writeln (x2 + " é positivo")
+}
+else{ 
+    document.write ("O número " + x2 + " é negativo");
+}
+
 
