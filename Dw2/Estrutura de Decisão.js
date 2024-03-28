@@ -28,3 +28,13 @@ if (genero == "M") {
 }else{
     console.log("Genero Inválido! Digite apenas M ou F.")
 } 
+
+/* 4 */
+
+let letra = prompt("Digite uam letra:");
+letra = letra.toLowerCase();
+if (letra = 'a,e,i,o,u'){
+    console.log('é  uma vogal');
+} else {
+    console.log ('não é uma vogal');
+}
