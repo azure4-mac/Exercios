@@ -30,7 +30,6 @@ if (genero == "M") {
 } 
 
 /* 4 */
-
 let letra = prompt("Digite uam letra:");
 letra = letra.toLowerCase();
 if (letra = 'a,e,i,o,u'){
@@ -38,3 +37,19 @@ if (letra = 'a,e,i,o,u'){
 } else {
     console.log ('não é uma vogal');
 }
+
+/* 5 */
+let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+
+const media = (nota1 + nota2) / 2;
+
+if (media === 10) {
+    console.log('Aprovado com Distinção!');
+} else if (media >= 7) {
+    console.log('Aprovado!');
+} else if (media < 6) {
+    console.log('Reprovado!');
+}
+
+/* 6 */
