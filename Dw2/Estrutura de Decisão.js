@@ -18,3 +18,13 @@ if (num > 0){
         console.log ("O número "+ num+ " é negativo")
     }else{
         console.log("O número é zero.")} 
+
+/* 3 */
+let genero = prompt("Digite seu genero, M para masculino F para feminio:");
+if (genero == "M") {
+    console.log("Seu genero é Masculino!");
+    } else if(genero == "F"){
+        console.log("Seu genero é Feminino!");     
+}else{
+    console.log("Genero Inválido! Digite apenas M ou F.")
+} 
