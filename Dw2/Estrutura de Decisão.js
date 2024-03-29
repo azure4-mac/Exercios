@@ -54,11 +54,11 @@ if (media === 10) {
 
 /* 6 */
 
-let num1 = Number(prompt("digite o primeiro número:");
-let num2 = Number(prompt("digite o segundo número:");
-let num3 = Number(prompt("digite o terceiro número:");
+let num1 = Number(prompt("digite o primeiro número:"));
+let num2 = Number(prompt("digite o segundo número:"));
+let num3 = Number(prompt("digite o terceiro número:"));
 
-if (num1 > num2, num3){
-    console.log('O numero' + num1 + 'é o maior número');
-} eles if (num2 > num3){
-    console.log('O numero'+ num2 + 'e o maior número');
+ if (num1 > num2, num3){
+      console.log('O numero' + num1 + 'é o maior número');
+ } else if (num2 > num3){
+       console.log('O numero'+ num2 + 'e o maior número');}
