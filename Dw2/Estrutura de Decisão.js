@@ -86,4 +86,6 @@ if  (menor < num3){
 document.write("<h2>" + "O maior valor é: "+ maior + "</h2>");
 document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
 
-/* 8 */
+/* 8 */ /* copiar a questao 7 e deixar somento o "document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")" pra printar*/
+
+/* 9 */
