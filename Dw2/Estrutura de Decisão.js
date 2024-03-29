@@ -53,7 +53,6 @@ if (media === 10) {
 }
 
 /* 6 */
-
 let num1 = Number(prompt("digite o primeiro número:"));
 let num2 = Number(prompt("digite o segundo número:"));
 let num3 = Number(prompt("digite o terceiro número:"));
@@ -62,3 +61,29 @@ let num3 = Number(prompt("digite o terceiro número:"));
       console.log('O numero' + num1 + 'é o maior número');
  } else if (num2 > num3){
        console.log('O numero'+ num2 + 'e o maior número');}
+
+/* 7 */ 
+let num1 = Number(prompt("digite o primeiro número:"));
+let num2 = Number(prompt("digite o segundo número:"));
+let num3 = Number(prompt("digite o terceiro número:"));
+
+let maior;
+let menor;
+
+if (num1  > num2) {
+  maior = num1;
+  menor = num2;
+}else {
+  maior = num2;
+  menor = num1;
+}
+if (maior > num3){
+}else {maior = num3}
+if  (menor < num3){
+}else{
+   menor = num3}
+ 
+document.write("<h2>" + "O maior valor é: "+ maior + "</h2>");
+document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
+
+/* 8 */
