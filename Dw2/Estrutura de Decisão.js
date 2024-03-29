@@ -89,3 +89,33 @@ document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
 /* 8 */ /* copiar a questao 7 e deixar somento o "document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")" pra printar*/
 
 /* 9 */
+let num1 = Number(prompt("digite o primeiro número:"));
+let num2 = Number(prompt("digite o segundo número:"));
+let num3 = Number(prompt("digite o terceiro número:"));
+
+let maior;
+let menor;
+let medio;
+
+if (num1  > num2) {
+  maior = num1;
+  menor = num2;
+}else {
+  maior = num2;
+  menor = num1;
+}
+if (maior > num3){
+}else {maior = num3}
+if  (menor < num3){
+}else {
+   menor = num3}
+if (maior > num1 && num1 > menor) {
+  medio = num1;
+} else if (maior > num2 && num2 > menor) {
+  medio = num2;
+} else {
+  medio = num3;}
+
+document.write("<h2>" + "O maior valor é: "+ maior + "</h2>");
+document.write("<h2>" + "O medio valor é: "+ medio + "</h2>");
+document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
