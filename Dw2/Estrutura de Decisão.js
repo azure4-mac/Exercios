@@ -119,3 +119,13 @@ if (maior > num1 && num1 > menor) {
 document.write("<h2>" + "O maior valor é: "+ maior + "</h2>");
 document.write("<h2>" + "O medio valor é: "+ medio + "</h2>");
 document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
+
+/* 10 */
+let turno prompt("Digite seu turno, M-matutino ou V-Vespertino ou N- Noturno.");
+
+if (turno == M){
+    console.log ("Bom Dia!")
+}else if (turno == V){
+    console.log ("Boa Tarde!")
+}else{
+    console.log ("Boa Noite")}
