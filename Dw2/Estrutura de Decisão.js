@@ -129,3 +129,33 @@ if (turno == M){
     console.log ("Boa Tarde!")
 }else{
     console.log ("Boa Noite")}
+
+/* 11 */
+
+let salario_antigo Number(prompt("Digite seu salário atual");
+
+const aumento;
+const salario_novo;
+const percentual;
+
+if (salario_antigo =< 280){
+    percentual = "20%"
+    aumento = (salario_antigo * 20) / 100
+    salario_novo = aumento + salario_antigo
+} eles if (281 => salario_antigo =<700){
+    percentual = "15%"
+    aumento = (salario_antigo * 15) / 100
+    salario_novo = aumento + salario_antigo
+} else if (701 => salario_antigo =<1500){
+    percentual = "10%"
+    aumento = (salario_antigo * 10) / 100
+    salario_novo = aumento + salario_antigo
+} else ( salario_antigo > 1500){
+    percentual = "5%"
+    aumento = (salario_antigo * 5) / 100
+    salario_novo = aumento + salario_antigo
+}
+
+document.write("<h2>" + " O salário antes do reajuste era " + salario_antigo + "<h2>")
+document.write("<h2>" + " O percentual de aumento é " + percentual + "<h2>")
+document.write("<h2>* + "
