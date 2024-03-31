@@ -121,36 +121,39 @@ document.write("<h2>" + "O medio valor é: "+ medio + "</h2>");
 document.write("<h2>" + "O menor valor é: "+ menor + "</h2>")
 
 /* 10 */
-let turno prompt("Digite seu turno, M-matutino ou V-Vespertino ou N- Noturno.");
+let turno = prompt("Digite seu turno, M-matutino, V-vespertino ou N-noturno.");
+turno = turno.toUpperCase();
 
-if (turno == M){
-    console.log ("Bom Dia!")
-}else if (turno == V){
-    console.log ("Boa Tarde!")
-}else{
-    console.log ("Boa Noite")}
-
+if (turno === "M") {
+    console.log("Bom Dia!");
+} else if (turno === "V") {
+    console.log("Boa Tarde!");
+} else if (turno === "N") {
+    console.log("Boa Noite!");
+} else {
+    console.log("Turno inválido, por favor, digite M para matutino, V para vespertino ou N para noturno.");
+}
 /* 11 */
 
-let salario_antigo Number(prompt("Digite seu salário atual");
+let salario_antigo = Number(prompt("Digite seu salário atual"));
 
-const aumento;
-const salario_novo;
-const percentual;
+let aumento;
+let salario_novo;
+let percentual;
 
-if (salario_antigo =< 280){
+if (salario_antigo <= 280){
     percentual = "20%"
     aumento = (salario_antigo * 20) / 100
     salario_novo = aumento + salario_antigo
-} eles if (281 => salario_antigo =<700){
+}else if (salario_antigo => 281 && salario_antigo  <= 700){
     percentual = "15%"
     aumento = (salario_antigo * 15) / 100
     salario_novo = aumento + salario_antigo
-} else if (701 => salario_antigo =<1500){
+}else if (salario_antigo > 700 && salario_antigo <= 1500){
     percentual = "10%"
     aumento = (salario_antigo * 10) / 100
     salario_novo = aumento + salario_antigo
-} else ( salario_antigo > 1500){
+}else{
     percentual = "5%"
     aumento = (salario_antigo * 5) / 100
     salario_novo = aumento + salario_antigo
@@ -158,4 +161,5 @@ if (salario_antigo =< 280){
 
 document.write("<h2>" + " O salário antes do reajuste era " + salario_antigo + "<h2>")
 document.write("<h2>" + " O percentual de aumento é " + percentual + "<h2>")
-document.write("<h2>* + "
+document.write("<h2>" + " O valor de aumento é " + aumento + "<h2>")
+document.write("<h2>" + " O novo salário depois do aumento é" + salario_novo + "<h2>")
