@@ -163,3 +163,6 @@ document.write("<h2>" + " O salário antes do reajuste era " + salario_antigo + 
 document.write("<h2>" + " O percentual de aumento é " + percentual + "<h2>")
 document.write("<h2>" + " O valor de aumento é " + aumento + "<h2>")
 document.write("<h2>" + " O novo salário depois do aumento é" + salario_novo + "<h2>")
+
+/* 12 */
+
