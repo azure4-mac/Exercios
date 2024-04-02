@@ -165,7 +165,33 @@ document.write("<h2>" + " O valor de aumento é " + aumento + "<h2>")
 document.write("<h2>" + " O novo salário depois do aumento é" + salario_novo + "<h2>")
 
 /* 12 */
-let horas_de_trabalho = Number(prompt('Digite quantas horas você trabalho
+let horas_trabalho = Number(prompt('Digite quantas horas você trabalho:'));
+let salario_hora = Number(prompt('Digite quanto recebe por hora:'))
+let salario_bruto = horas_trabalho * salario_hora;
+let IR;
+
+if (salario_bruto <= 900){
+    IR = ("isento")
+}else if (salario_bruto > 900 && salario_bruto <= 1500){
+    IR = (salario_bruto * 5) / 100 
+}else if (salario_bruto > 1500 && salario_bruto <= 2500){
+    IR = (salario_bruto * 10) / 100
+}else {
+    IR = (salario_bruto * 20) / 100
+}
+
+let INSS = (salario_bruto * 10) / 100
+let FGTS = (salario_bruto * 11) / 100
+let total_de_descontos = INSS + FGTS
+let salario_Liquido = salario_bruto - total_de_descontos
+
+document.write("<h2>" + "O salário bruto é R$" + salario_bruto + "</h2>")
+document.write("<h2>" + "O IR do salário bruto é " + IR +  "</h2>")
+document.write("<h2>" + "O valor do INSS é de R$" + INSS + "</h2>")
+document.write("<h2>" + "FGTS vai ser de R$" + FGTS + "</h2>")
+document.write("<h2>" + "Total de desconto são R$" + total_de_descontos + "</h2>")
+document.write("<h2>" + "E o seu salário líquido é de R$" + salario_Liquido + "</h2>")  
+
 
 /* 13 */
 let dia_semana = Number(prompt("Digite o número correspondente da semana")
