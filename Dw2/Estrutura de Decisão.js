@@ -133,8 +133,8 @@ if (turno === "M") {
 } else {
     console.log("Turno inválido, por favor, digite M para matutino, V para vespertino ou N para noturno.");
 }
-/* 11 */
 
+/* 11 */
 let salario_antigo = Number(prompt("Digite seu salário atual"));
 
 let aumento;
@@ -166,3 +166,10 @@ document.write("<h2>" + " O novo salário depois do aumento é" + salario_novo +
 
 /* 12 */
 
+
+
+/* 13 */
+let dia_semana = Number(prompt("Digite o número correspondente da semana")
+
+if (1 == 2) {
+    
