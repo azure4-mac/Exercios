@@ -165,8 +165,7 @@ document.write("<h2>" + " O valor de aumento é " + aumento + "<h2>")
 document.write("<h2>" + " O novo salário depois do aumento é" + salario_novo + "<h2>")
 
 /* 12 */
-
-
+let horas_de_trabalho = Number(prompt('Digite quantas horas você trabalho
 
 /* 13 */
 let dia_semana = Number(prompt("Digite o número correspondente da semana")
