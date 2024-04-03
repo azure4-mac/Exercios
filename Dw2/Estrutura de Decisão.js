@@ -194,7 +194,23 @@ document.write("<h2>" + "E o seu salário líquido é de R$" + salario_Liquido +
 
 
 /* 13 */
-let dia_semana = Number(prompt("Digite o número correspondente da semana")
+let dia_semana = Number(prompt("Digite o número correspondente da semana");
 
-if (1 == 2) {
-    
+    if (dia_semana = 1) {
+        document.write ('1-Domingo');
+    } else if (dia_semana = 2) {
+        document.write('2-Segunda-Feira');
+    } else if (dia_semana = 3){
+        document.write('3-Terça-Feira');
+    } else if (dia_semana = 4) {
+        document.write('4 - Quarta Feira');
+    } else if (dia_semana == 5) {
+        document.write('5 - Quinta Feira');
+    } else if (dia_semana = 6) {
+        document.write('6 - Sexta Feira');
+    } else {
+        document.write('7 - Sábado');
+    };
+
+/* 14 */
+
