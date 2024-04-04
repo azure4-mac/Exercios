@@ -1,4 +1,4 @@
-/* senha */ 
+/* senha (2) */ 
 let senha = prompt("Digite uma senha:");
 
 while (senha&& senha.length < 6){
