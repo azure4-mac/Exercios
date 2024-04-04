@@ -7,7 +7,6 @@ while (senha&& senha.length < 6){
 }
 alert ("Senha cadastrada com sucesso!")
 
-
 /* 1 */
 let note = prompt("Digite um número entre 1 a 10:");
 
