@@ -49,3 +49,21 @@ do {
 document.write(
   "<h2>" + "Nome: " + nome + "<br/> Idade: " + idade + "<br/> Salário: R$" + salario.toFixed(2) + "<br/> Estado Civil: " + estado_civil + "<h2>"
 );
+
+/* 4 */
+let pobA = 80000
+let pobB = 200000
+let taxa_crescimentoA = 0.03
+let taxa_crescimentoB = 0.015
+
+let anos = 0
+
+while (pobA <= pobB) {
+    pobA += pobB * taxa_crescimentoB;
+    pobB += pobA * taxa_crescimentoA;
+    anos++
+}
+
+console.log(`O país A ultrapassou o País B em ${anos + 1} anos`)
+
+/* 5 */
