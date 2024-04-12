@@ -194,7 +194,7 @@ document.write("<h2>" + "E o seu salário líquido é de R$" + salario_Liquido +
 
 
 /* 13 */
-let dia_semana = Number(prompt("Digite o número correspondente da semana");
+let dia_semana = Number(prompt("Digite o número correspondente da semana"));
 
     if (dia_semana = 1) {
         document.write ('1-Domingo');
