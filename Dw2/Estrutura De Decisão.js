@@ -213,4 +213,26 @@ let dia_semana = Number(prompt("Digite o número correspondente da semana"));
     };
 
 /* 14 */
+let nota1 = Number(prompt('Digite a primeira nota:'));
+let nota2 = Number(prompt('digite a segunda nota:'));
+let media = (nota1 + nota2) / 2
+let conceito;
+if (meida => 9 && media == 10){
+    conceito = 'A'
+} else if (media >= 7.5 && media  < 9){
+    conceito = 'B'
+} else if (media >= 6 && media < 7.5){
+    conceito = 'C'
+} else if (media  >= 4 && media  <= 6){
+    conceito = 'D'
+} else {
+    conceito = 'E'
+}
+
+if (conceito == 'A' || conceito == 'B' || conceito || 'C'){
+    document.write ('Aprovado com nota ' + conceito +'')
+}
+else {
+    document.write ('Reprovado com nota '  + conceito + '')
+}
 
