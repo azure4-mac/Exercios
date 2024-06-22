@@ -236,3 +236,16 @@ else {
     document.write ('Reprovado com nota '  + conceito + '')
 }
 
+/* 15 */ 
+let lado1 = Number(prompt( "Informe o primeiro lado do triangulo:"))
+let lado2 = Number(prompt( "Informe o segundo lado do triangulo:"))
+let lado3 = Number(prompt( "Informe o terceiro lado do triangulo:"))
+
+if (lado1 == lado2, lado3);{
+    if (lado1 === lado2 && lado2 === lado3) {
+        alert("O triangulo é equilátero");
+      } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+        alert("O triangulo é isósceles");
+      } else {
+        alert("O triangulo é escaleno");
+      }}
